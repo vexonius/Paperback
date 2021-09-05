@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Stinsen",
+        "repositoryURL": "https://github.com/rundfunk47/stinsen",
+        "state": {
+          "branch": null,
+          "revision": "2dc2c2aded09f0bc34f221edd053ad3cefa1391d",
+          "version": "1.0.10"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
