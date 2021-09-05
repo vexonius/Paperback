@@ -3,19 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01047E826B9517200CAFD1C /* ContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01047E726B9517200CAFD1C /* ContentCoordinator.swift */; };
+		F01047ED26B953AA00CAFD1C /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01047EC26B953AA00CAFD1C /* OnboardingCoordinator.swift */; };
+		F02B37E126B35B7400746BE7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B37E026B35B7400746BE7 /* LoginView.swift */; };
+		F0496C4526C28C6100F53F89 /* CardProminent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0496C4426C28C6100F53F89 /* CardProminent.swift */; };
+		F04EB8FD26C5E2FA00D94B9B /* CWACoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04EB8FC26C5E2FA00D94B9B /* CWACoordinatable.swift */; };
+		F0884DB126B988FB00FCB02D /* ContinueWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0884DB026B988FB00FCB02D /* ContinueWithApple.swift */; };
+		F093070926E50830003049C9 /* Stinsen (Static) in Frameworks */ = {isa = PBXBuildFile; productRef = F093070826E50830003049C9 /* Stinsen (Static) */; };
 		F093BB0525ADFF6200AAB77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093BB0425ADFF6200AAB77F /* AppDelegate.swift */; };
 		F093BB0725ADFF6200AAB77F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093BB0625ADFF6200AAB77F /* SceneDelegate.swift */; };
 		F093BB0925ADFF6200AAB77F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093BB0825ADFF6200AAB77F /* ContentView.swift */; };
 		F093BB0B25ADFF6300AAB77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F093BB0A25ADFF6300AAB77F /* Assets.xcassets */; };
 		F093BB0E25ADFF6300AAB77F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F093BB0D25ADFF6300AAB77F /* Preview Assets.xcassets */; };
 		F093BB1125ADFF6300AAB77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F093BB0F25ADFF6300AAB77F /* LaunchScreen.storyboard */; };
+		F0EF367F26C655EA00888331 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF367E26C655EA00888331 /* Main.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F01047F126B95A3600CAFD1C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F01047E726B9517200CAFD1C /* ContentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCoordinator.swift; sourceTree = "<group>"; };
+		F01047EC26B953AA00CAFD1C /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		F02B37E026B35B7400746BE7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F0496C4426C28C6100F53F89 /* CardProminent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProminent.swift; sourceTree = "<group>"; };
+		F04EB8FC26C5E2FA00D94B9B /* CWACoordinatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWACoordinatable.swift; sourceTree = "<group>"; };
+		F0884DB026B988FB00FCB02D /* ContinueWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueWithApple.swift; sourceTree = "<group>"; };
 		F093BB0125ADFF6200AAB77F /* Paperback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paperback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F093BB0425ADFF6200AAB77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F093BB0625ADFF6200AAB77F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,7 @@
 		F093BB0D25ADFF6300AAB77F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F093BB1025ADFF6300AAB77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F093BB1225ADFF6300AAB77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EF367E26C655EA00888331 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F093070926E50830003049C9 /* Stinsen (Static) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F01047E926B951FA00CAFD1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F093BAF825ADFF6200AAB77F = {
 			isa = PBXGroup;
 			children = (
 				F093BB0325ADFF6200AAB77F /* Paperback */,
 				F093BB0225ADFF6200AAB77F /* Products */,
+				F01047E926B951FA00CAFD1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +100,13 @@
 				F093BB0F25ADFF6300AAB77F /* LaunchScreen.storyboard */,
 				F093BB1225ADFF6300AAB77F /* Info.plist */,
 				F093BB0C25ADFF6300AAB77F /* Preview Content */,
+				F02B37E026B35B7400746BE7 /* LoginView.swift */,
+				F0884DB026B988FB00FCB02D /* ContinueWithApple.swift */,
+				F01047E726B9517200CAFD1C /* ContentCoordinator.swift */,
+				F01047EC26B953AA00CAFD1C /* OnboardingCoordinator.swift */,
+				F0496C4426C28C6100F53F89 /* CardProminent.swift */,
+				F04EB8FC26C5E2FA00D94B9B /* CWACoordinatable.swift */,
+				F0EF367E26C655EA00888331 /* Main.swift */,
 			);
 			path = Paperback;
 			sourceTree = "<group>";
@@ -85,12 +129,16 @@
 				F093BAFD25ADFF6200AAB77F /* Sources */,
 				F093BAFE25ADFF6200AAB77F /* Frameworks */,
 				F093BAFF25ADFF6200AAB77F /* Resources */,
+				F01047F126B95A3600CAFD1C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Paperback;
+			packageProductDependencies = (
+				F093070826E50830003049C9 /* Stinsen (Static) */,
+			);
 			productName = Paperback;
 			productReference = F093BB0125ADFF6200AAB77F /* Paperback.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +166,9 @@
 				Base,
 			);
 			mainGroup = F093BAF825ADFF6200AAB77F;
+			packageReferences = (
+				F017AF1326CA6B86005A15EB /* XCRemoteSwiftPackageReference "stinsen" */,
+			);
 			productRefGroup = F093BB0225ADFF6200AAB77F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,9 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0EF367F26C655EA00888331 /* Main.swift in Sources */,
+				F04EB8FD26C5E2FA00D94B9B /* CWACoordinatable.swift in Sources */,
+				F0884DB126B988FB00FCB02D /* ContinueWithApple.swift in Sources */,
 				F093BB0525ADFF6200AAB77F /* AppDelegate.swift in Sources */,
+				F01047ED26B953AA00CAFD1C /* OnboardingCoordinator.swift in Sources */,
 				F093BB0725ADFF6200AAB77F /* SceneDelegate.swift in Sources */,
+				F0496C4526C28C6100F53F89 /* CardProminent.swift in Sources */,
+				F01047E826B9517200CAFD1C /* ContentCoordinator.swift in Sources */,
 				F093BB0925ADFF6200AAB77F /* ContentView.swift in Sources */,
+				F02B37E126B35B7400746BE7 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -345,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F017AF1326CA6B86005A15EB /* XCRemoteSwiftPackageReference "stinsen" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rundfunk47/stinsen";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F093070826E50830003049C9 /* Stinsen (Static) */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F017AF1326CA6B86005A15EB /* XCRemoteSwiftPackageReference "stinsen" */;
+			productName = "Stinsen (Static)";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F093BAF925ADFF6200AAB77F /* Project object */;
 }
