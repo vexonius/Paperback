@@ -20,6 +20,8 @@
 		F093BB0B25ADFF6300AAB77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F093BB0A25ADFF6300AAB77F /* Assets.xcassets */; };
 		F093BB0E25ADFF6300AAB77F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F093BB0D25ADFF6300AAB77F /* Preview Assets.xcassets */; };
 		F093BB1125ADFF6300AAB77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F093BB0F25ADFF6300AAB77F /* LaunchScreen.storyboard */; };
+		F0D9CAB526E7A2C5000DE38A /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CAB426E7A2C5000DE38A /* Secret.swift */; };
+		F0D9CAB726E7A38D000DE38A /* AppSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CAB626E7A38D000DE38A /* AppSecret.swift */; };
 		F0EF367F26C655EA00888331 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF367E26C655EA00888331 /* Main.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		F093BB0D25ADFF6300AAB77F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F093BB1025ADFF6300AAB77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F093BB1225ADFF6300AAB77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D9CAB426E7A2C5000DE38A /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		F0D9CAB626E7A38D000DE38A /* AppSecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSecret.swift; sourceTree = "<group>"; };
 		F0EF367E26C655EA00888331 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +111,8 @@
 				F0496C4426C28C6100F53F89 /* CardProminent.swift */,
 				F04EB8FC26C5E2FA00D94B9B /* CWACoordinatable.swift */,
 				F0EF367E26C655EA00888331 /* Main.swift */,
+				F0D9CAB426E7A2C5000DE38A /* Secret.swift */,
+				F0D9CAB626E7A38D000DE38A /* AppSecret.swift */,
 			);
 			path = Paperback;
 			sourceTree = "<group>";
@@ -197,11 +203,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0EF367F26C655EA00888331 /* Main.swift in Sources */,
+				F0D9CAB526E7A2C5000DE38A /* Secret.swift in Sources */,
 				F04EB8FD26C5E2FA00D94B9B /* CWACoordinatable.swift in Sources */,
 				F0884DB126B988FB00FCB02D /* ContinueWithApple.swift in Sources */,
 				F093BB0525ADFF6200AAB77F /* AppDelegate.swift in Sources */,
 				F01047ED26B953AA00CAFD1C /* OnboardingCoordinator.swift in Sources */,
 				F093BB0725ADFF6200AAB77F /* SceneDelegate.swift in Sources */,
+				F0D9CAB726E7A38D000DE38A /* AppSecret.swift in Sources */,
 				F0496C4526C28C6100F53F89 /* CardProminent.swift in Sources */,
 				F01047E826B9517200CAFD1C /* ContentCoordinator.swift in Sources */,
 				F093BB0925ADFF6200AAB77F /* ContentView.swift in Sources */,

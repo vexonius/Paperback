@@ -50,6 +50,9 @@ xcuserdata/
 # AppCode
 .idea/
 
+# Secrets
+AppSecret.swift
+
 # old school
 .svn
 .cvs
