@@ -2,12 +2,21 @@
   "object": {
     "pins": [
       {
+        "package": "PostgREST",
+        "repositoryURL": "https://github.com/supabase-community/postgrest-swift",
+        "state": {
+          "branch": "master",
+          "revision": "20986b605da90493b456453683b7ca2a74fa075a",
+          "version": null
+        }
+      },
+      {
         "package": "Stinsen",
         "repositoryURL": "https://github.com/rundfunk47/stinsen",
         "state": {
-          "branch": null,
-          "revision": "2dc2c2aded09f0bc34f221edd053ad3cefa1391d",
-          "version": "1.0.10"
+          "branch": "master",
+          "revision": "88a1e1c3325fc6ea716daf8820ea37fde8c9e637",
+          "version": null
         }
       }
     ]

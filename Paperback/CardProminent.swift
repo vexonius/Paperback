@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct CardProminent: View {
+    @EnvironmentObject var router: DefaultCoordinator.Router
+
     var subtitle: String
     var title: String
     var actionTitle: String
 
-    var body: some View {
+    @ViewBuilder var body: some View {
         VStack (alignment: .leading, spacing: 0) {
             Text(subtitle)
                 .font(.system(size: 18))
@@ -39,7 +41,9 @@ struct CardProminent: View {
                     .padding(30)
                 Spacer()
             }
-            Button(action: {}) {
+            Button(action: {
+                
+            }) {
                 Spacer()
                 Text(actionTitle)
                     .font(.title3)
@@ -54,7 +58,7 @@ struct CardProminent: View {
             .padding([.leading, .trailing], 40)
             .padding([.bottom], 20)
         }
-        .frame(maxWidth: .infinity, maxHeight: 500, alignment: .leading)
+        .frame(maxWidth: .infinity, maxHeight: 400, alignment: .leading)
         .background {
             RoundedRectangle(cornerRadius: 20)
                 .foregroundColor(.blue)
@@ -62,6 +66,10 @@ struct CardProminent: View {
         }
         .padding(20)
     }
+}
+
+func hello() async -> Int {
+    return 2
 }
 
 struct CardProminent_Previews: PreviewProvider {

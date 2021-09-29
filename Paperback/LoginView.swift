@@ -8,9 +8,8 @@
 import SwiftUI
 import Stinsen
 
-@available(iOS 15.0, *)
 struct LoginView: View {
-    @EnvironmentObject var router: ViewRouter<OnboardingCoordinator.Route>
+    @EnvironmentObject var router: HomeCoordinator.Router
     @State var showSecondScreen: Bool = false
 
     var body: some View {
@@ -37,7 +36,7 @@ struct LoginView: View {
             .padding()
 
             Button(action: {
-                self.router.route(to: .continueWithApple)
+
             }) {
                 Text("Continue with Apple")
                     .font(.title2)

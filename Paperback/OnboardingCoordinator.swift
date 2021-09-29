@@ -10,28 +10,6 @@ import SwiftUI
 
 import Stinsen
 
-class OnboardingCoordinator: ViewCoordinatable {
+class OnboardingCoordinator {
 
-    var children = ViewChild()
-
-    enum Route: ViewRoute {
-        case continueWithApple
-    }
-
-    func resolveRoute(route: Route) -> AnyCoordinatable {
-        switch route {
-        case .continueWithApple:
-            return AnyCoordinatable(
-                ContinueWirhAppleCoordinator()
-                )
-        }
-    }
-
-    @ViewBuilder func start() -> some View {
-        LoginView().navigationTitle("Sign with Apple").navigationTitle("Login").navigationBarHidden(false)
-    }
-
-    init() {
-
-    }
 }

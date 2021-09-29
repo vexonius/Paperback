@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F01047E826B9517200CAFD1C /* ContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01047E726B9517200CAFD1C /* ContentCoordinator.swift */; };
+		F01047E826B9517200CAFD1C /* DefaultCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01047E726B9517200CAFD1C /* DefaultCoordinator.swift */; };
 		F01047ED26B953AA00CAFD1C /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01047EC26B953AA00CAFD1C /* OnboardingCoordinator.swift */; };
 		F02B37E126B35B7400746BE7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B37E026B35B7400746BE7 /* LoginView.swift */; };
+		F02CA85A270525C90026CAAB /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = F02CA859270525C90026CAAB /* PostgREST */; };
 		F0496C4526C28C6100F53F89 /* CardProminent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0496C4426C28C6100F53F89 /* CardProminent.swift */; };
-		F04EB8FD26C5E2FA00D94B9B /* CWACoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04EB8FC26C5E2FA00D94B9B /* CWACoordinatable.swift */; };
-		F0884DB126B988FB00FCB02D /* ContinueWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0884DB026B988FB00FCB02D /* ContinueWithApple.swift */; };
-		F093070926E50830003049C9 /* Stinsen (Static) in Frameworks */ = {isa = PBXBuildFile; productRef = F093070826E50830003049C9 /* Stinsen (Static) */; };
 		F093BB0525ADFF6200AAB77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093BB0425ADFF6200AAB77F /* AppDelegate.swift */; };
 		F093BB0725ADFF6200AAB77F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093BB0625ADFF6200AAB77F /* SceneDelegate.swift */; };
 		F093BB0925ADFF6200AAB77F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093BB0825ADFF6200AAB77F /* ContentView.swift */; };
@@ -22,7 +20,9 @@
 		F093BB1125ADFF6300AAB77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F093BB0F25ADFF6300AAB77F /* LaunchScreen.storyboard */; };
 		F0D9CAB526E7A2C5000DE38A /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CAB426E7A2C5000DE38A /* Secret.swift */; };
 		F0D9CAB726E7A38D000DE38A /* AppSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CAB626E7A38D000DE38A /* AppSecret.swift */; };
-		F0EF367F26C655EA00888331 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF367E26C655EA00888331 /* Main.swift */; };
+		F0EE26142703C5C3003DE929 /* Stinsen in Frameworks */ = {isa = PBXBuildFile; productRef = F0EE26132703C5C3003DE929 /* Stinsen */; };
+		F0EE26162703D1F0003DE929 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EE26152703D1F0003DE929 /* HomeCoordinator.swift */; };
+		F0FEF91C26E937A80029AF7B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FEF91B26E937A80029AF7B /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,12 +39,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F01047E726B9517200CAFD1C /* ContentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCoordinator.swift; sourceTree = "<group>"; };
+		F01047E726B9517200CAFD1C /* DefaultCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCoordinator.swift; sourceTree = "<group>"; };
 		F01047EC26B953AA00CAFD1C /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		F02B37E026B35B7400746BE7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F0496C4426C28C6100F53F89 /* CardProminent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProminent.swift; sourceTree = "<group>"; };
-		F04EB8FC26C5E2FA00D94B9B /* CWACoordinatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWACoordinatable.swift; sourceTree = "<group>"; };
-		F0884DB026B988FB00FCB02D /* ContinueWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueWithApple.swift; sourceTree = "<group>"; };
 		F093BB0125ADFF6200AAB77F /* Paperback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paperback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F093BB0425ADFF6200AAB77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F093BB0625ADFF6200AAB77F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +53,8 @@
 		F093BB1225ADFF6300AAB77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D9CAB426E7A2C5000DE38A /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		F0D9CAB626E7A38D000DE38A /* AppSecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSecret.swift; sourceTree = "<group>"; };
-		F0EF367E26C655EA00888331 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		F0EE26152703D1F0003DE929 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		F0FEF91B26E937A80029AF7B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F093070926E50830003049C9 /* Stinsen (Static) in Frameworks */,
+				F02CA85A270525C90026CAAB /* PostgREST in Frameworks */,
+				F0EE26142703C5C3003DE929 /* Stinsen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +97,7 @@
 		F093BB0325ADFF6200AAB77F /* Paperback */ = {
 			isa = PBXGroup;
 			children = (
+				F0FEF91A26E9378A0029AF7B /* Services */,
 				F093BB0425ADFF6200AAB77F /* AppDelegate.swift */,
 				F093BB0625ADFF6200AAB77F /* SceneDelegate.swift */,
 				F093BB0825ADFF6200AAB77F /* ContentView.swift */,
@@ -105,14 +106,12 @@
 				F093BB1225ADFF6300AAB77F /* Info.plist */,
 				F093BB0C25ADFF6300AAB77F /* Preview Content */,
 				F02B37E026B35B7400746BE7 /* LoginView.swift */,
-				F0884DB026B988FB00FCB02D /* ContinueWithApple.swift */,
-				F01047E726B9517200CAFD1C /* ContentCoordinator.swift */,
+				F01047E726B9517200CAFD1C /* DefaultCoordinator.swift */,
 				F01047EC26B953AA00CAFD1C /* OnboardingCoordinator.swift */,
 				F0496C4426C28C6100F53F89 /* CardProminent.swift */,
-				F04EB8FC26C5E2FA00D94B9B /* CWACoordinatable.swift */,
-				F0EF367E26C655EA00888331 /* Main.swift */,
 				F0D9CAB426E7A2C5000DE38A /* Secret.swift */,
 				F0D9CAB626E7A38D000DE38A /* AppSecret.swift */,
+				F0EE26152703D1F0003DE929 /* HomeCoordinator.swift */,
 			);
 			path = Paperback;
 			sourceTree = "<group>";
@@ -123,6 +122,14 @@
 				F093BB0D25ADFF6300AAB77F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0FEF91A26E9378A0029AF7B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F0FEF91B26E937A80029AF7B /* ApiService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +150,8 @@
 			);
 			name = Paperback;
 			packageProductDependencies = (
-				F093070826E50830003049C9 /* Stinsen (Static) */,
+				F0EE26132703C5C3003DE929 /* Stinsen */,
+				F02CA859270525C90026CAAB /* PostgREST */,
 			);
 			productName = Paperback;
 			productReference = F093BB0125ADFF6200AAB77F /* Paperback.app */;
@@ -173,7 +181,8 @@
 			);
 			mainGroup = F093BAF825ADFF6200AAB77F;
 			packageReferences = (
-				F017AF1326CA6B86005A15EB /* XCRemoteSwiftPackageReference "stinsen" */,
+				F0EE26122703C5C3003DE929 /* XCRemoteSwiftPackageReference "stinsen" */,
+				F02CA858270525C90026CAAB /* XCRemoteSwiftPackageReference "postgrest-swift" */,
 			);
 			productRefGroup = F093BB0225ADFF6200AAB77F /* Products */;
 			projectDirPath = "";
@@ -202,16 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0EF367F26C655EA00888331 /* Main.swift in Sources */,
 				F0D9CAB526E7A2C5000DE38A /* Secret.swift in Sources */,
-				F04EB8FD26C5E2FA00D94B9B /* CWACoordinatable.swift in Sources */,
-				F0884DB126B988FB00FCB02D /* ContinueWithApple.swift in Sources */,
 				F093BB0525ADFF6200AAB77F /* AppDelegate.swift in Sources */,
+				F0EE26162703D1F0003DE929 /* HomeCoordinator.swift in Sources */,
 				F01047ED26B953AA00CAFD1C /* OnboardingCoordinator.swift in Sources */,
 				F093BB0725ADFF6200AAB77F /* SceneDelegate.swift in Sources */,
+				F0FEF91C26E937A80029AF7B /* ApiService.swift in Sources */,
 				F0D9CAB726E7A38D000DE38A /* AppSecret.swift in Sources */,
 				F0496C4526C28C6100F53F89 /* CardProminent.swift in Sources */,
-				F01047E826B9517200CAFD1C /* ContentCoordinator.swift in Sources */,
+				F01047E826B9517200CAFD1C /* DefaultCoordinator.swift in Sources */,
 				F093BB0925ADFF6200AAB77F /* ContentView.swift in Sources */,
 				F02B37E126B35B7400746BE7 /* LoginView.swift in Sources */,
 			);
@@ -413,21 +421,34 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F017AF1326CA6B86005A15EB /* XCRemoteSwiftPackageReference "stinsen" */ = {
+		F02CA858270525C90026CAAB /* XCRemoteSwiftPackageReference "postgrest-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/postgrest-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F0EE26122703C5C3003DE929 /* XCRemoteSwiftPackageReference "stinsen" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rundfunk47/stinsen";
 			requirement = {
-				kind = exactVersion;
-				version = 1.0.10;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F093070826E50830003049C9 /* Stinsen (Static) */ = {
+		F02CA859270525C90026CAAB /* PostgREST */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F017AF1326CA6B86005A15EB /* XCRemoteSwiftPackageReference "stinsen" */;
-			productName = "Stinsen (Static)";
+			package = F02CA858270525C90026CAAB /* XCRemoteSwiftPackageReference "postgrest-swift" */;
+			productName = PostgREST;
+		};
+		F0EE26132703C5C3003DE929 /* Stinsen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0EE26122703C5C3003DE929 /* XCRemoteSwiftPackageReference "stinsen" */;
+			productName = Stinsen;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
